@@ -6,10 +6,10 @@ https://github.com/AlexeyAB/Yolo_mark<br>
 해당 코드 위치:<br>
 https://github.com/AlexeyAB/Yolo_mark/blob/ea049f3f1a4812500526db409e61e34c7bdcd4da/main.cpp#L530-L533
 
-							float const relative_center_x = (float)(i.abs_rect.x + i.abs_rect.width / 2) / full_image_roi.cols;
-							float const relative_center_y = (float)(i.abs_rect.y + i.abs_rect.height / 2) / full_image_roi.rows;
-							float const relative_width = (float)i.abs_rect.width / full_image_roi.cols;
-							float const relative_height = (float)i.abs_rect.height / full_image_roi.rows;
+	float const relative_center_x = (float)(i.abs_rect.x + i.abs_rect.width / 2) / full_image_roi.cols;
+	float const relative_center_y = (float)(i.abs_rect.y + i.abs_rect.height / 2) / full_image_roi.rows;
+	float const relative_width = (float)i.abs_rect.width / full_image_roi.cols;
+	float const relative_height = (float)i.abs_rect.height / full_image_roi.rows;
 
 <br>
 

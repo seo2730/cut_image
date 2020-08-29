@@ -14,8 +14,11 @@ https://github.com/AlexeyAB/Yolo_mark/blob/ea049f3f1a4812500526db409e61e34c7bdcd
 <br>
 
 > x 좌표 : relative_center_x * full_image_roi.cols - i.abs_rect.width / 2
+
 > y 좌표 : relative_center_y * full_image_roi.rows - i.abs_rect.height / 2
+
 > 너비 : relative_width * full_image_roi.cols
+
 > 높이 : relative_height * full_image_roi.rows
 
 # cut_image.py
